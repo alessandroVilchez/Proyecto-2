@@ -17,7 +17,7 @@ import pandas as pd
 conn= mysql.connector.connect(
     host="localhost",
     user="root",
-    password="aleyolen24"
+    password=""
 )
 cursor=conn.cursor(buffered=True)
 ############################################### FIN DE CONEXION A LA BASE DE DATOS ################################
